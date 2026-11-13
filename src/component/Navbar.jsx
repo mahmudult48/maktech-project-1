@@ -5,7 +5,7 @@ import { ThemeContext } from '../context/ThemeContext';
 
 const Navbar = () => {
 
-    const { theme, handleTheme } = useContext(ThemeContext);
+    const { theme, handleTheme} = useContext(ThemeContext);
 
     const navLinks = (
         <>
